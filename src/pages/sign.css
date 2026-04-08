@@ -1,0 +1,166 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .signinpage {
+    min-height: 100vh;
+     background: linear-gradient(135deg, #f8f5f0 0%, #e8e5e0 50%, #d9d5ce 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+  }
+
+  .signincard {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 36px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+
+
+  .signinh1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+
+  .signinsub {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 28px;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 6px;
+    font-weight: bolder;
+  }
+
+  .signin-input {
+    width: 100%;
+    padding: 11px 14px;
+     border: 1.5px solid #d6d6d6;
+  color: #222;
+  background: #f3f3f3;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    margin-bottom: 16px;
+  transition: border-color 0.2s, width 0.3s;
+  }
+
+  
+  .signin-input:focus {
+      border-color: #888;
+  }
+
+  .remrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .remember {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    color: #666;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .forgot {
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .signinbtn {
+    width: 100%;
+    padding: 12px;
+    background: #6f6f6f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 20px;
+  }
+
+  .signinbtn:hover { background: #5a5a5a; color: #111; }
+
+  .divider {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .divider::before, .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 42%;
+    height: 1px;
+    background: #ddd;
+  }
+
+  .divider::before { left: 0; }
+  .divider::after  { right: 0; }
+
+  .signup-row {
+    text-align: center;
+    font-size: 13.5px;
+    color: black;
+  }
+
+  .signup-row a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .signup-row a:hover {
+  color: rgb(44, 44, 44);
+}
+ 
+  .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+ 
+  .field {
+    margin-bottom: 16px;
+  }
+ 
+  .terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #222;
+    margin: 18px 0 22px;
+  }
+ 
+  .terms a {
+    color: #f07c3a;
+    text-decoration: none;
+  }
