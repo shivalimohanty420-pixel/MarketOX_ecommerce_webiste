@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './carts.css';
+import { useNavigate } from "react-router-dom";
 
 const Carts = () => {
   const [carts, setCarts] = useState([]);
   const userid = localStorage.getItem('userid');
+  const nav = useNavigate()
 
   useEffect(() => {
     if (!userid) { nav("/login"); return; } 
